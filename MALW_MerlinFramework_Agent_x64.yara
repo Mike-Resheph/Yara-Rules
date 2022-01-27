@@ -30,7 +30,7 @@ rule Merlin_x64_agent_Merlin_Export
 		description = "Detects Merlin Framework x64 Agent"
 		info = ""
 		author = "Michael Andersen"
-		reference = "Not set"
+		reference = "https://www.virustotal.com/gui/file/0678d021eea3bcf377bebc76c4f91b74c29db1e48e70c371423c9944a1ec25d4/detection"
 		date = "2022-01-27"
 		hash0 = "0678d021eea3bcf377bebc76c4f91b74c29db1e48e70c371423c9944a1ec25d4"
 
