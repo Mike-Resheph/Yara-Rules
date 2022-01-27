@@ -45,8 +45,10 @@ rule Merlin_Agent_x86_x64_Strings
 		$STR8 = "github.com/Ne0nd0g" ascii nocase
 		$STR9 = "github.com/refraction-networking" ascii nocase
 		$STR10 = "github.com/satori" ascii nocase
-//		$STR2 = ""
+		$STR11 = "merlin-agent"
+		$STR12 = "agent.executeJob"
 
 	condition:
-		$STR1 and 8 of ($STR2,$STR3,$STR4,$STR5,$STR6,$STR7,$STR8,$STR9,$STR10)
+		$STR1 and $STR11 and $STR12 and
+		8 of ($STR2,$STR3,$STR4,$STR5,$STR6,$STR7,$STR8,$STR9,$STR10)
 }
