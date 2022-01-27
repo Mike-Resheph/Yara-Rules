@@ -6,7 +6,7 @@ rule MALW_Brbbot_Config_Decoder
 		description = "Detects brbbot"
 		info = ""
 		author = "Michael Andersen"
-		reference = "Not set"
+		reference = ""
 		date = "2022-01-23"
 		hash0 = "f47060d0f7de5ee651878eb18dd2d24b5003bdb03ef4f49879f448f05034a21e"
 
