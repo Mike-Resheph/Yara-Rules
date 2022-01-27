@@ -45,8 +45,8 @@ rule Merlin_Agent_x86_x64_Strings
 		$STR8 = "github.com/Ne0nd0g" ascii nocase
 		$STR9 = "github.com/refraction-networking" ascii nocase
 		$STR10 = "github.com/satori" ascii nocase
-		$STR11 = "merlin-agent"
-		$STR12 = "agent.executeJob"
+		$STR11 = "merlin-agent" ascii nocase
+		$STR12 = "agent.executeJob" ascii nocase
 
 	condition:
 		$STR1 and $STR11 and $STR12 and
