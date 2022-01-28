@@ -15,6 +15,7 @@ rule Merlin_Premade_x64_Agent
         reference = "https://github.com/Ne0nd0g/merlin/releases"
         date = "2022-01-28"
         hash0 = "1cc95705b15ac7b45192d304d2453c6eccb8cf65aba02563b11d2ca973c7212f"
+        hash1 = "0678d021eea3bcf377bebc76c4f91b74c29db1e48e70c371423c9944a1ec25d4"
 
     strings:
         $STR1 = { 4? 89 44 ?? ?? 4? 89 5c ?? ?? 4? 8d 3d ?? ?? ?? ?? 4? 8d ?? ?? ?? ?? ?? ?? 4? 89 $
