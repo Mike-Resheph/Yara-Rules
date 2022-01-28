@@ -20,23 +20,22 @@ rule Merlin_Premade_x64_Agent
 	strings:
 		$STR1 = { 4? 89 44 ?? ?? 4? 89 5c ?? ?? 4? 8d 3d ?? ?? ?? ?? 4? 8d ?? ?? ?? ?? ?? ?? 4? 89 5? ?? 4? 89 5? ?? 4? 89 1? 4? 89 6? ?? b8 ?? ?? ?? ?? 0f a2 89 c6 83 f8 ?? 74 ?? 81 fb ?? ?? ?? ?? 75 ?? 81 fa ?? ?? ?? ?? 75 ?? 81 f9 ?? ?? ?? ?? 75 ?? c6 05 ?? ?? ?? ?? ?? c6 05 ?? ?? ?? ?? ?? b8 ?? ?? ?? ?? 0f a2 89 05 ?? ?? ?? ?? 4? 8b 05 ?? ?? ?? ?? 4? 85 c0  }
 		$STR2 = "**jose.JSONWebKey"
-		$STR3 = "go.dedis.ch/fixbuf"
+		$STR3 = "go.dedis.ch/fixbuf" nocase
 		$STR4 = "jose.keyDecrypter"
 		$STR5 = "Payload"
-		$STR6 = "go.dedis.ch/kyber"
+		$STR6 = "go.dedis.ch/kyber" nocase
 		$STR7 = "*hpack.DecodingError"
 		$STR8 = "undecryptablePackets"
-		$STR9 = "github.com/mattn"
-		$STR10 = "github.com/fatih"
-		$STR11 = "github.com/google"
-		$STR12 = "github.com/satori"
-		$STR13 = "github.com/!ne0nd0g"
-		$STR14 = "github.com/cretz"
-		$STR15 = "github.com/refraction-networking"
-		$STR16 = "github.com/lucas-clemente"
-		$STR17 = "github.com/marten-seemann"
+		$STR9 = "github.com/mattn" nocase
+		$STR10 = "github.com/fatih" nocase
+		$STR11 = "github.com/google" nocase
+		$STR12 = "github.com/satori" nocase
+		$STR13 = "github.com/!ne0nd0g" nocase
+		$STR14 = "github.com/cretz" nocase
+		$STR15 = "github.com/refraction-networking" nocase
+		$STR16 = "github.com/lucas-clemente" nocase
+		$STR17 = "github.com/marten-seemann" nocase
 
 	condition:
-		
 		15 of them
 }
